@@ -1,0 +1,119 @@
+* { 
+    box-sizing:content-box;
+}
+
+header {
+    background: url('/images/lone-starfish-wide.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 3em 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(2, 2, 41, 0.5);
+    margin: 0;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.75;
+    color: #0c2519;
+    background-color: #234b46; 
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #acc0be; 
+    padding: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(15, 13, 47);
+    font-size: 1rem;
+    padding: 0.5rem;
+    display:block;
+}
+
+
+nav ul {
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+nav ul li {
+    margin: 0 1rem;
+    position: relative;
+    padding: 0 18px;
+}
+
+nav ul li:nth-child(1),
+nav ul li:nth-child(2) 
+{    
+    border-right: 1.2px solid #000; 
+
+}
+
+
+.article-image {
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    width: 280px;
+    height: auto;
+    padding: 1%;
+}
+
+.facts ul {
+    list-style-type:circle;
+    margin-left: 20px;
+}
+
+.facts li {
+    margin-bottom: 1rem;
+}
+
+
+.contact-section form {
+    border: 2px solid #0b1c21; 
+    padding: 1rem;
+    background-color: #99a8b1; 
+}
+
+
+.contact-section .radio-buttons {
+    border: none; 
+    padding: 0; 
+    margin-bottom: 5px; 
+}
+
+.contact-section input[type="text"],
+.contact-section input[type="email"],
+.contact-section textarea {
+    width: calc(100% - 30px); 
+}
+
+
+.contact-heading {
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 0%; 
+    padding:0%; 
+}
+
+footer {
+
+    text-align: right;
+    padding: 1rem;
+    margin-top: 1rem;
+    color: rgb(11, 50, 43);
+}
