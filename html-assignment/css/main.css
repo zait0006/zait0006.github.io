@@ -1,18 +1,4 @@
-/* Note feedback from the Simple HTML Website assignment and assignment and update your code accordingly
-Add a CSS file to your website
-Inheritance - target the body tag to change the font family and increase the font size to 18px
-Select multiple elements - select both header and footer elements and add the same background colour
-Class selector - add a class of site-title to the main heading of the site and select the class in CSS to change the colour of text of the heading
-Id selector - add an id my-image to your image and select the id in CSS to add a box-shadow with 0 horizontal and vertical placement, 2px of the blur, 1px of the spread and black colour
-Replace the bullets from the list of hobbies with squares
-Using the nth-child selector - add a background to the odd list items in the hobby list
-Styling the Navigation
-Remove the bullets from the unordered list in navigation (only if you have used the ul tag inside the nav tag) 
-Remove the underline from the links
-Add a background and border to the links
-Change the background colour on hover or focus state of the links
-Validate your HTML
-Commit Stage and Push your changes to GitHub */
+
 
 
 body{
