@@ -1,0 +1,225 @@
+*.
+@media (max-width: 768px) {
+    .nav-list {
+      display: none; 
+    }
+}
+
+header{
+    background: black;
+    color: goldenrod;
+    margin: auto;
+    padding: 1%;
+  }
+  header h1{
+    margin: 0;
+  }
+  footer{
+    background: black;
+    color: goldenrod;
+
+  }
+  
+  .search-warpper{
+    color: rgb(179, 136, 29);
+  }
+.logo{
+    background-color: #c78c06; 
+}
+.about-us{
+    background-color: #ffe6ac;
+}
+.our-services{
+    background-color: #ffe6ac;
+}
+
+.ourvision{
+    background-image: url(../images/vision.jpg); 
+    background-size:auto;
+    color:white;
+
+    margin: 0;
+.p{
+    position: absolute; /* Position the text relative to the container */
+    top: 50%; /* Place the text vertically at the center */
+    left: 50%;
+}
+}
+
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px; 
+    background-color: #ffe6ac; 
+  }
+  
+  .about-us-content {
+    max-width: 600px; 
+  }
+  
+  .about-us h2 {
+    color: #333; 
+    margin-bottom: 1rem;
+    font-size: 2.5rem; 
+  }
+  
+  .about-us p {
+    color: #666; /* Dark gray for the text */
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem; /* Spacing between paragraphs */
+  }
+  
+  .about-us-image {
+    width: 100%;
+    height: auto;
+    
+   
+    background-size: cover;
+  }
+  
+  /* Add media query for responsiveness */
+  @media (max-width: 768px) {
+    .about-us {
+      flex-direction: column;
+    }
+  }
+  
+
+  .digital-transformation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #ffe6ac;
+    padding: 40px;
+    border-bottom: 10px solid; 
+  }
+  
+  .digital-transformation h2 {
+    font-size: 2rem; 
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .digital-transformation p {
+    font-size: 1rem; /* Standard font size for the paragraph */
+    color: #666; /* Lighter color for the paragraph text */
+    margin-bottom: 30px; /* Spacing under the paragraph before the button */
+  }
+  
+  .digital-transformation {
+    width:100%;
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #ffe6ac; 
+    color: #000; /* Text color for the button */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .digital-transformation:hover {
+    background-color: #E6C200; /* Slightly darker gold on hover */
+  }
+  
+ 
+  
+  .digital-transformation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #ffe6ac; /* Adjust the color to match your design */
+    padding: 40px; /* Adjust padding as needed */
+    border-bottom: 10px solid #ffe6ac; /* Gold color border */
+  }
+  
+  .digital-transformation h2 {
+    font-size: 2rem; /* Large font size for the title */
+    color: #333; /* Dark color for the text */
+    margin-bottom: 20px; /* Spacing under the title */
+  }
+  
+  .digital-transformation p {
+    font-size: 1rem; /* Standard font size for the paragraph */
+    color: #666; /* Lighter color for the paragraph text */
+    margin-bottom: 30px; /* Spacing under the paragraph before the button */
+  }
+  
+  .digital-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #030303; /* Gold color for the button */
+    color: #fbfafa; /* Text color for the button */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .digital-button:hover {
+    background-color: #746f55; /* Slightly darker gold on hover */
+  }
+  
+  .base-input,
+.base-textarea,
+.send-button,
+.map,
+.hours-table,
+.location,
+footer {
+    width: 100%; /* Sets full width to several elements consistently */
+}
+
+.base-input,
+.base-textarea {
+    padding: 12px; /* Provides more clickable area and visual space */
+}
+
+.send-button {
+    margin-top: 20px; /* Space above the send button */
+}
+
+.map {
+    height: 300px; /* Standard height for all map instances */
+}
+
+.footer,
+.location,
+.contact-us-section {
+    padding: 20px; /* Standard padding to maintain visual rhythm */
+}
+
+/* Contact Us Section Specific Styles */
+.contact-us-section {
+    /* Additional styles specific to contact section can go here */
+}
+
+.contact-us-section h1,
+.contact-us-section h2 {
+    font-size: 24px; /* Smaller font size for headings */
+    text-align: center; /* Centers the headings */
+}
+
+.contact-us-section .base-input,
+.contact-us-section .base-textarea {
+    /* No additional styles needed, base styles apply */
+}
+
+.contact-us-section .send-button {
+    /* Specific styles for the send button if needed */
+}
+
+/* Location Section Adjustments */
+.location .map {
+    /* All map-specific styles are already defined globally */
+}
+
+/* Hours of Operation Table Adjustments */
+.hours-table {
+    margin-top: 20px; /* Adds space above the hours table */
+}
+
+/* Footer Adjustments */
+footer {
+    padding: 10px; /* Reduces padding for a tighter footer */
+}
